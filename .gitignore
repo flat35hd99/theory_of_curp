@@ -1,0 +1,9 @@
+# latex
+src/*.aux
+src/*.dvi
+src/*.log
+src/*.synctex.gz
+src/*.pdf
+# bibtex
+src/*.bbl
+src/*.blg
