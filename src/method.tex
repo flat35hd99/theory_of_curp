@@ -1,0 +1,17 @@
+\section{Method}
+
+Open main.tex. This file is master file of this project. Compiler loads this file and search included files. Let's read them.
+
+preamble.tex has responsibility for definition of newcommand and usepackage.
+
+Because acf command defined in preamble.tex, you can use below command.
+
+\begin{lstlisting}
+\acf{h}{0}{t}
+\end{lstlisting}
+
+them, the output looks like
+
+\begin{equation}
+  \acf{h}{0}{t}
+\end{equation}

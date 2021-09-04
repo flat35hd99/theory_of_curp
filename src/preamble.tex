@@ -1,0 +1,11 @@
+% Write definition of newcommand, usepackage etc.
+
+\usepackage{listings}
+
+\newcommand{\correlation}[2]{
+  \left< #1 #2 \right>
+}
+
+\newcommand{\acf}[3]{
+  \correlation{#1(#2)}{#1(#3)}
+}
