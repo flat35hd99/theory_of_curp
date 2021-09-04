@@ -10,6 +10,7 @@ jobs:
     steps:
       # make pdf
       # LATEX_FILE_NAME -> main.pdf generated
+      - name: Checkout
         uses: actions/checkout@v2
       - name: Compile Tex File
         id: compile_tex_file
