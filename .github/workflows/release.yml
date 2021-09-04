@@ -17,9 +17,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            src/main.tex
-        env:
-          TEXINPUTS: ".:./src//:"
+            main.tex
+          working_directory: src/
       # Create Release
       - name: Create Release
         id: create_release
